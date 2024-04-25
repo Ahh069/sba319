@@ -38,7 +38,7 @@ app.use("/users", userRoutes);
 app.get('/', (req, res) => {
     res.send(
         `<div>
-     This is my Main Page <br/>
+     Resturants <br/>
         <a href='/users'>user</a><br/>
         <a href='/foods'>food</a><br/>
         <a href='/drinks'>drink</a>
